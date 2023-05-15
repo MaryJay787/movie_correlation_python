@@ -15,3 +15,12 @@ from matplotlib.pyplot import figure
 matplotlib.rcParams['figure.figsize'] = (12,8)
 
 pd.options.mode.chained_assignment = None
+
+
+# Path to find the data in local environment
+df = pd.read_csv(r'/Users/violettouch/Downloads/movies.csv')
+
+# Ready to view
+
+df
+# %%
